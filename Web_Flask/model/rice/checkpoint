@@ -1,0 +1,2 @@
+model_checkpoint_path: "rice_saved.cpkt"
+all_model_checkpoint_paths: "rice_saved.cpkt"

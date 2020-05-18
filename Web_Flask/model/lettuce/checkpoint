@@ -1,0 +1,2 @@
+model_checkpoint_path: "lettuce_saved.cpkt"
+all_model_checkpoint_paths: "lettuce_saved.cpkt"

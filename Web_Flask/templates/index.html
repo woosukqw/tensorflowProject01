@@ -126,11 +126,11 @@
               </h1>
 
               <p>
-                <strong>기상청과 전국의 월별 상추가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
+                <strong>기상청과 전국의 월별 채소가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
-                <strong>현재 상추의 가격을 예측합니다.</strong>
+                <strong>현재 채소의 가격을 예측합니다.</strong>
               </p>
             <!-- Content -->
 
@@ -160,7 +160,7 @@
               </h1>
 
               <p>
-                <strong>기상청과 전국의 월별 상추가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
+                <strong>기상청과 전국의 월별 채소가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
@@ -195,7 +195,7 @@
               </h1>
 
               <p>
-                <strong>기상청과 전국의 월별 상추가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
+                <strong>기상청과 전국의 월별 채소가격 빅 데이터를 Tensorflow로 머신러닝시킨 AI를 이용해 농산물의 가격을 예측합니다.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
@@ -238,7 +238,7 @@
       <!--Section: Main features & Quick Start-->
       <section>
 
-        <h3 class="h3 text-center mb-5">미래의 상추 가격 예측하기</h3>
+        <h3 class="h3 text-center mb-5">미래의 채소 가격 예측하기</h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
@@ -247,6 +247,11 @@
           <div class="col-lg-6 col-md-12 px-4">
 
             <form action="/" method="post">
+            	<!-- server.py로 보낼 데이터를 입력받는 곳.-->
+                <div class="form-group">
+                  <label style="font-family: 'Nanum Barun Gothic'" for="fromGroupExampleInput">예측을 원하는 채소를 입력하세요.</label>
+                  <input style="font-family: 'Nanum Barun Gothic'" type="text" name="vegit_category" class="form-control" id="fromGroupExampleInput" placeholder="예측을 원하는 채소를 입력하세요.">
+                </div>
               <!-- server.py로 보낼 데이터를 입력받는 곳.-->
                 <div class="form-group">
                   <label style="font-family: 'Nanum Barun Gothic'" for="fromGroupExampleInput">평균 온도를 입력하세요.</label>
@@ -272,6 +277,31 @@
             </form>
         </div>
         <!--/Grid row-->
+
+        <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3">현재 서비스 이용가능 채소 목록</h3>
+            <p> 목록에 있는 채소들 중 원하는 품목을 입력하세요. (영어, 한국어 모두가능) </p>
+            <hr>
+            <details>
+            	<summary>채소 목록</summary>
+            	<ul>cabbage (배추)</ul>
+            	<ul>luttuce (상추)</ul>
+            	<ul>radish (무)</ul>
+            	<ul>rice (쌀)</ul>
+            	<ul>onion(양파)</ul>
+            	<ul>welshonion(파)</ul>
+            	<ul>pear(배)</ul>
+            	<ul></ul>
+            	<ul></ul>
+            	<ul></ul>
+            	<ul></ul>
+            </details>
+            <hr>
+          </div>
+        <!--Grid column-->
 
         <!--Grid column-->
           <div class="col-lg-6 col-md-12">

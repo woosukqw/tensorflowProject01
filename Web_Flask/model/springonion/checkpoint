@@ -1,0 +1,2 @@
+model_checkpoint_path: "springonion_saved.cpkt"
+all_model_checkpoint_paths: "springonion_saved.cpkt"
